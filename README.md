@@ -68,20 +68,14 @@ Com análise detalhada da composição, derivação e flexão das palavras em su
 
 A engenharia de prompts é a prática de projetar e otimizar instruções (prompts) para interagir eficazmente com modelos de linguagem de inteligência artificial. Essa técnica visa obter respostas mais precisas, relevantes e úteis desses sistemas.
 
-Diretrizes para a Criação e Otimização de Prompts
-A criação de prompts bem formulados e otimizados envolve:
-
-Clareza e Precisão: Criar instruções específicas e bem estruturadas.
-
-Contexto: Fornecer informações de fundo relevantes.
-
-Exemplos: Incluir exemplos para orientar o modelo.
-
-Restrições: Definir limites ou condições para as respostas.
-
-Formato: Especificar o formato desejado para a saída.
-
-Iteração: Refinar prompts com base nos resultados obtidos.
+| Diretriz                  | Descrição                                                                                  |
+|---------------------------|--------------------------------------------------------------------------------------------|
+| Clareza e Precisão        | Criar instruções específicas e bem estruturadas.                                          |
+| Contexto                  | Fornecer informações de fundo relevantes.                                                  |
+| Exemplos                  | Incluir exemplos para orientar o modelo.                                                  |
+| Restrições                | Definir limites ou condições para as respostas.                                           |
+| Formato                   | Especificar o formato desejado para a saída.                                             |
+| Iteração                  | Refinar prompts com base nos resultados obtidos.                                          |
 
 Entendendo os Parâmetros de Inferência
 Os parâmetros de inferência são os ajustes e configurações que influenciam como o modelo de Inteligência Artificial gera previsões ou respostas quando está em uso. Eles são aplicados após o modelo ter sido treinado e ajudam a definir a forma como o modelo lida com novos dados.
