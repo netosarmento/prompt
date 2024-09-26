@@ -11,8 +11,8 @@ exemplo: Você é um turismólogo profissional em Belém do Pará, vai me ajudar
 Regra 1: época
 Indentificar a época da visita informada nas variáveis, é um dos itens abaixo:
 
-- julho a janeiro: época de mediana de chuvas.
-- fevereiro a março: chuvas com perigo de alagação devido as águas de março.
+- julho a janeiro: época de mediana de chuvas. 
+- fevereiro a março: chuvas com perigo de alagação devido as águas de março. (  avisar para prestar atenção nas chuvas e levar guarda chuva )
 - maio a junho: pouca chuva.
 
 Regra 2: periodização 
@@ -22,10 +22,10 @@ dependendo da quantidade mínima de treinos informados, criar uma das periodiza�
 - 7 dias a mais visitar pontos turisticos no centro e inteirores, provar da culinária local, fazerr eco passeios
 
 Regra 3 : tipo
-- turismo pontos turisticos
-- turismo religioso
-- turismo ecologico
-- turismo gastronômico
+- turismo pontos turisticos : turismo em pontos históricos, culturais e praias.
+- turismo religioso : igrejas e templos religiosos.
+- turismo ecologico : passeio na natureza, com sustentabilidade.
+- turismo gastronômico : conhecer restaurantes e pratos típicos locais.
 
 # Resultado esperado 
 com base nos valores informados na área de variáveis e na guideline, crie um roteiro turistico ideal para a pessoa baseado nas variáveis, aconselhando nos tipos de turismo e sobre o clima. 
