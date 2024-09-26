@@ -73,17 +73,9 @@ Dentre os principais parâmetros, temos:
 | Stop Sequences     | Strings específicas que fazem o modelo parar de gerar mais texto.       | Controle de conteúdo em descrições e FAQs.               |
 
 
-Entrada
-A entrada consiste no recurso de texto do Claude 3 para o qual você deve retornar a descrição. Neste contexto, os seguintes recursos são considerados válidos para este desafio de código:
-
-"Geração de conteúdo"
-"Redação e revisão"
-"Sumarização"
-"Análise e interpretação de texto"
-Saída
-A saída esperada é a descrição associada ao recurso fornecido como entrada. Seguem as saídas possíveis, listadas aleatoriamente, para que você possa analisar e associar corretamente:
-
-"Sintetizar artigos extensos ou documentos em resumos breves"
-"Oferecer percepções e esclarecer conceitos complexos"
-"Desenvolver conteúdo com base em instruções ou diretrizes"
-"Auxiliar na criação de textos e revisão de materiais escritos"
+| Entrada                                   | Descrição                                                                                  |
+|-------------------------------------------|--------------------------------------------------------------------------------------------|
+| Geração de conteúdo                       | Desenvolver conteúdo com base em instruções ou diretrizes.                                |
+| Redação e revisão                         | Auxiliar na criação de textos e revisão de materiais escritos.                            |
+| Sumarização                               | Sintetizar artigos extensos ou documentos em resumos breves.                             |
+| Análise e interpretação de texto          | Oferecer percepções e esclarecer conceitos complexos.                                     |
