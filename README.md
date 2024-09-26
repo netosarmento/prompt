@@ -90,33 +90,15 @@ Inferência é o processo de aplicar um modelo treinado a novos dados para gerar
 
 Dentre os principais parâmetros, temos:
 
-Parâmetro	Descrição	Tipo de Aplicação
-System prompts
+| Parâmetro         | Descrição                                                                 | Tipo de Aplicação                                           |
+|-------------------|---------------------------------------------------------------------------|-----------------------------------------------------------|
+| System prompts     | Instruções iniciais que ajustam o comportamento e respostas do modelo.   | Sistemas que requerem personalização de comportamento.    |
+| Temperature        | Controla a "aleatoriedade" e "criatividade" das respostas.               | Aplicações que exigem criatividade ou precisão.           |
+| Top P              | Define a gama de opções para o próximo token.                            | Assistentes virtuais e chatbots.                          |
+| Top K              | Limita a seleção de tokens aos K mais prováveis.                         | Geração criativa (ex: histórias, diálogos para jogos).    |
+| Maximum Length     | Define o número máximo de tokens na resposta.                            | Respostas concisas.                                       |
+| Stop Sequences     | Strings específicas que fazem o modelo parar de gerar mais texto.       | Controle de conteúdo em descrições e FAQs.               |
 
-Instruções iniciais que ajustam o comportamento e respostas do modelo conforme o contexto específico.
--------------------------------------------------------------------------------------------------------------------------------
--------------------------------------------------------------------------------------------------------------------------------
-| Sistemas que requerem personalização de comportamento em assistentes e suporte.|| Temperature |
--------------------------------------------------------------------------------------------------------------------------------
-| Controla a "aleatoriedade" e "criatividade" das respostas; valores mais altos produzem respostas mais diversas, já os mais baixos resultam em saídas mais determinísticas. || Valores altos para aplicações que exigem criatividade (ex: geração de conteúdo), e baixos para as que exigem precisão (ex: suporte técnico). |
--------------------------------------------------------------------------------------------------------------------------------
-| Top P |
--------------------------------------------------------------------------------------------------------------------------------
-| Define a gama de opções para o próximo token; em valores inferiores a 1,0, são consideradas as mais prováveis e desconsideradas as menos prováveis. |
--------------------------------------------------------------------------------------------------------------------------------
-| Assistentes virtuais e chatbots para equilibrar diversidade e fluidez ao gerar saídas naturais e coerentes. |
--------------------------------------------------------------------------------------------------------------------------------
-| Top K || Limita a seleção de tokens aos K mais prováveis; útil para explorar variedade em um conjunto controlado de possíveis saídas.|| Geração criativa (ex: histórias, diálogos para jogos). |
--------------------------------------------------------------------------------------------------------------------------------
-| Maximum Length || Define o número máximo de tokens na resposta; importante para respostas concisas. |
--------------------------------------------------------------------------------------------------------------------------------
-
--------------------------------------------------------------------------------------------------------------------------------
-| Stop Sequences || Resumos e mensagens concisas em chatbots. |
--------------------------------------------------------------------------------------------------------------------------------
-| Strings específicas que fazem o modelo parar de gerar mais texto. || Controle de conteúdo em descrições e FAQs. |
--------------------------------------------------------------------------------------------------------------------------------
--------------------------------------------------------------------------------------------------------------------------------
 
 Entrada
 A entrada consiste no recurso de texto do Claude 3 para o qual você deve retornar a descrição. Neste contexto, os seguintes recursos são considerados válidos para este desafio de código:
