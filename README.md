@@ -17,27 +17,6 @@ Agente que interage com o ambiente recebendo feedback's. Para maximizar resposta
 
 
 
-# IA's
-
-https://gamma.app/
-
-Image generator : https://ideogram.ai/
-
-Automações : https://manychat.com/pt
-
-ChatGPT, Bing, Bard, LuzAI
-
-Legendar - app blink
-
-Leonardo Aí, MidJourny
-
-
-you.com , ElevenLabs, D-ID, HeyGen
-
-labs.heygen.com
-
-tradução 
-
 ## Processamento de Linguagem Natural 
 
 - Ensinar IA através de deep learning.
