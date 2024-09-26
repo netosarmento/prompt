@@ -95,13 +95,10 @@ System prompts
 
 Instruções iniciais que ajustam o comportamento e respostas do modelo conforme o contexto específico.
 -------------------------------------------------------------------------------------------------------------------------------
-| Sistemas que requerem personalização de comportamento em assistentes e suporte.|
 -------------------------------------------------------------------------------------------------------------------------------
-| Temperature |
+| Sistemas que requerem personalização de comportamento em assistentes e suporte.|| Temperature |
 -------------------------------------------------------------------------------------------------------------------------------
-| Controla a "aleatoriedade" e "criatividade" das respostas; valores mais altos produzem respostas mais diversas, já os mais baixos resultam em saídas mais determinísticas. |
--------------------------------------------------------------------------------------------------------------------------------
-| Valores altos para aplicações que exigem criatividade (ex: geração de conteúdo), e baixos para as que exigem precisão (ex: suporte técnico). |
+| Controla a "aleatoriedade" e "criatividade" das respostas; valores mais altos produzem respostas mais diversas, já os mais baixos resultam em saídas mais determinísticas. || Valores altos para aplicações que exigem criatividade (ex: geração de conteúdo), e baixos para as que exigem precisão (ex: suporte técnico). |
 -------------------------------------------------------------------------------------------------------------------------------
 | Top P |
 -------------------------------------------------------------------------------------------------------------------------------
@@ -109,23 +106,16 @@ Instruções iniciais que ajustam o comportamento e respostas do modelo conforme
 -------------------------------------------------------------------------------------------------------------------------------
 | Assistentes virtuais e chatbots para equilibrar diversidade e fluidez ao gerar saídas naturais e coerentes. |
 -------------------------------------------------------------------------------------------------------------------------------
-| Top K |
+| Top K || Limita a seleção de tokens aos K mais prováveis; útil para explorar variedade em um conjunto controlado de possíveis saídas.|| Geração criativa (ex: histórias, diálogos para jogos). |
 -------------------------------------------------------------------------------------------------------------------------------
-| Limita a seleção de tokens aos K mais prováveis; útil para explorar variedade em um conjunto controlado de possíveis saídas. |
+| Maximum Length || Define o número máximo de tokens na resposta; importante para respostas concisas. |
 -------------------------------------------------------------------------------------------------------------------------------
-| Geração criativa (ex: histórias, diálogos para jogos). |
+
 -------------------------------------------------------------------------------------------------------------------------------
-| Maximum Length |
+| Stop Sequences || Resumos e mensagens concisas em chatbots. |
 -------------------------------------------------------------------------------------------------------------------------------
-| Define o número máximo de tokens na resposta; importante para respostas concisas. |
+| Strings específicas que fazem o modelo parar de gerar mais texto. || Controle de conteúdo em descrições e FAQs. |
 -------------------------------------------------------------------------------------------------------------------------------
-| Resumos e mensagens concisas em chatbots. |
--------------------------------------------------------------------------------------------------------------------------------
-| Stop Sequences |
--------------------------------------------------------------------------------------------------------------------------------
-| Strings específicas que fazem o modelo parar de gerar mais texto. |
--------------------------------------------------------------------------------------------------------------------------------
-| Controle de conteúdo em descrições e FAQs. |
 -------------------------------------------------------------------------------------------------------------------------------
 
 Entrada
